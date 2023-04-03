@@ -3,7 +3,7 @@
 
 <img width = "400" src="https://raw.githubusercontent.com/SamuelAsherRivello/rmc-core/main/RMC%20Core/Documentation~/com.rmc_namespace_logo.png" />
 
-# RMC AI (**todo edit the rest of this page**)
+# RMC AI)
 
 - [How To Use](#how-to-use)
 - [Install](#install)
@@ -18,7 +18,7 @@
 
 ## How to use
 
-RMC's best practices for Unity package structure and C# coding standards. It is a recommended starting point for new Unity packages.
+RMC's AI library
 
 Enjoy!
 
@@ -50,7 +50,7 @@ Or to edit the `Packages/manifest.json` directly with your favorite text editor,
     }
   ],
   "dependencies": {
-    "com.rmc.unity-package-template": "1.0.0"
+    "com.rmc.rmc-ai": "0.8.0"
   }
 }
 ```
@@ -71,7 +71,7 @@ Or to edit the `Packages/manifest.json` directly with your favorite text editor,
 ```json
 {
   "dependencies": {
-      "com.rmc.unity-package-template": "https://github.com/SamuelAsherRivello/unity-package-template.git"
+      "com.rmc.rmc-ai": "https://github.com/SamuelAsherRivello/rmc-ai.git"
   }
 }
 ```
@@ -88,7 +88,7 @@ Open `Packages/manifest.json` with your favorite text editor. Add following line
 {
   "dependencies": {
   },
-  "testables": [ "com.rmc.unity-package-template" ]
+  "testables": [ "com.rmc.rmc-ai" ]
 }
 ```
 
