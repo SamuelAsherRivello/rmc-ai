@@ -1,0 +1,45 @@
+{
+  "name": "com.rmc.rmc-ai",
+  "displayName": "RMC AI",
+  "version": "1.0.0",
+  "unity": "2022.3",
+  "description": "RMC Artificial Intelligence (AI) library",
+  "keywords": [
+	"unity",
+	"unity3d",
+	"rmc",
+	"upm",
+	"package",
+	"ai",
+	"open ai",
+	"artificial-intelligence",
+	"chatgpt",
+	"dall-e",
+	"template",
+	"utility"
+  ],
+  "dependencies": {
+	  "com.rmc.rmc-readme" : "1.2.2"
+  },
+  
+  "homepage": "https://github.com/samuelasherrivello/rmc-ai.git",
+  "bugs": {
+	"url": "https://github.com/samuelasherrivello/rmc-ai/issues"
+  },
+  "repository": {
+	"type": "git",
+	"url": "git+ssh://git@github.com/samuelasherrivello/rmc-ai.git"
+  },
+  "license": "MIT",
+  "author": "rmc (github.com/SamuelAsherRivello)",
+  "scripts": {
+	"test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "samples": [
+    {
+	"displayName": "RMC AI Sample",
+	"description": "Demonstrate the RMC AI library",
+	"path": "RMC AI/Samples~/RMC AI Sample"
+    }
+  ]
+}
