@@ -3,7 +3,7 @@
 
 <img width = "400" src="https://raw.githubusercontent.com/SamuelAsherRivello/rmc-core/main/RMC%20Core/Documentation~/com.rmc_namespace_logo.png" />
 
-# RMC AI)
+# RMC AI
 
 - [How To Use](#how-to-use)
 - [Install](#install)
