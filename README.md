@@ -1,4 +1,4 @@
-[![npm package](https://img.shields.io/npm/v/com.rmc.unity-package-template)](https://www.npmjs.com/package/com.rmc.unity-package-template)
+[![npm package](https://img.shields.io/npm/v/com.rmc.rmc-ai)](https://www.npmjs.com/package/com.rmc.unity-package-template)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 <img width = "400" src="https://raw.githubusercontent.com/SamuelAsherRivello/rmc-core/main/RMC%20Core/Documentation~/com.rmc_namespace_logo.png" />
