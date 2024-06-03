@@ -5,3 +5,6 @@
 /[Aa]rtifacts/
 /[Cc]odeCoverage/
 
+/RMC AI/Samples~/RMC AI Sample/Resources/Sample
+RMC AI/Samples~/RMC AI Sample/Resources/Sample/ArtificialIntelligenceData.json
+RMC AI/Samples~/RMC AI Sample/Resources/Sample/ArtificialIntelligenceData.json.meta
