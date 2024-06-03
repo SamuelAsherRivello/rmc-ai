@@ -9,7 +9,7 @@ namespace RMC.TemporarioSDK.ReadMe
 		public const string PathMenuItemWindowCompanyProject = "Window/" + CompanyName + "/" + ProjectName;
 		public const string CompanyName = "RMC";
 		public const string ProjectName = "TemporarioSDK";
-		public const int PriorityMenuItem_Examples = 1;
+		public const int PriorityMenuItem_Examples = -100;
         
 		//  Fields ----------------------------------------
 		

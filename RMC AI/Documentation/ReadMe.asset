@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ReadMe
   m_EditorClassIdentifier: 
   Title: RMC AI
-  Icon: {fileID: 2800000, guid: 7c0822b0780ca4a74b276e50db2c68a3, type: 3}
+  Icon: {fileID: 2800000, guid: 5ceebaccd0956c5438e50a45dc64e5ca, type: 3}
   Sections:
   - TextHeading: Welcome
     TextSubheading: 
@@ -25,13 +25,4 @@ MonoBehaviour:
     PingObjectGuid: 
     MenuItemName: 
     MenuItemPath: 
-  - TextHeading: Getting Started
-    TextSubheading: 
-    TextBody: Open the RMC AI Sample
-    LinkName: 
-    LinkUrl: 
-    PingObjectName: 
-    PingObjectGuid: 
-    MenuItemName: Window/Package Manager
-    MenuItemPath: Window/Package Manager
   HasLoadedLayout: 0
