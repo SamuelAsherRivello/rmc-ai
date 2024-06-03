@@ -34,9 +34,6 @@ namespace RMC.AI
             }
         }
         
-        
-        
-        
         public bool IsAuthenticated
         {
             get
@@ -88,8 +85,18 @@ namespace RMC.AI
             else
             {
                 ArtificialIntelligenceData artificialIntelligenceData = JsonUtility.FromJson<ArtificialIntelligenceData>(textAsset.text);
-                Debug.Log("AuthenticateAsync() OpenAIApiKey.Length = " + artificialIntelligenceData.OpenAIApiKey.Length);
-                Debug.Log("AuthenticateAsync() OpenAIOrganization.Length = " + artificialIntelligenceData.OpenAIOrganization.Length);
+                
+                if (artificialIntelligenceData.OpenAIApiKey.Length == 0)
+                {
+                    Debug.LogError($"Error: OpenAIApiKey is empty. See {pathUnderResources}.");
+                    return;
+                }
+                
+                if (artificialIntelligenceData.OpenAIOrganization.Length == 0)
+                {
+                    Debug.LogError($"Error: OpenAIOrganization is empty. See {pathUnderResources}.");
+                    return;
+                }
               
                 OpenAISettings openAISettings = OpenAISettings.Default;
                 _openAIClient = new OpenAIClient(artificialIntelligenceData.OpenAIApiKey, openAISettings);

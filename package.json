@@ -1,7 +1,7 @@
 {
   "name": "com.rmc.rmc-ai",
   "displayName": "RMC AI",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "unity": "2022.3",
   "description": "RMC Artificial Intelligence (AI) library",
   "keywords": [
